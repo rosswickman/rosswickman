@@ -1,0 +1,19 @@
+---
+name: Main
+
+# Triggered on all merge to default branch
+
+on:
+  push:
+    branches-ignore:
+      - master
+      - main
+
+jobs:
+  default:
+    name: Default
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - run: |
+          echo just a default GitHub Workflow
