@@ -1,0 +1,12 @@
+stages:
+  - run
+
+run:
+  stage: run
+  only:
+    - master
+    - main
+  script:
+    - |
+      #!/bin/bash -e
+      echo just a default GitLab CI
