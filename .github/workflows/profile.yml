@@ -42,6 +42,7 @@ jobs:
 
       - name: Contribution snake
         uses: Platane/snk/svg-only@v3
+        continue-on-error: true # keep stats/blog updates if the snake fails
         with:
           github_user_name: ${{ env.LOGIN }}
           outputs: |
@@ -53,7 +54,7 @@ jobs:
 
       - name: Commit changes
         run: |
-          cp dist/*.svg assets/
+          if compgen -G 'dist/*.svg' >/dev/null; then cp dist/*.svg assets/; fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add assets README.md

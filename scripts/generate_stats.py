@@ -134,8 +134,11 @@ def fetch(login: str, token: str) -> dict:
             "User-Agent": "profile-stats",
         },
     )
-    with urllib.request.urlopen(req, timeout=30) as resp:
-        payload = json.load(resp)
+    try:
+        with urllib.request.urlopen(req, timeout=30) as resp:
+            payload = json.load(resp)
+    except OSError as exc:  # URLError/HTTPError are OSError subclasses
+        sys.exit(f"Failed to fetch GitHub data: {exc}")
     if payload.get("errors"):
         sys.exit(f"GraphQL error: {payload['errors']}")
     return payload["data"]["user"]

@@ -104,6 +104,8 @@ def main() -> None:
     if START not in text or END not in text:
         sys.exit("README.md is missing the BLOG-POST-LIST markers")
     head, rest = text.split(START, 1)
+    if END not in rest:
+        sys.exit("README.md has BLOG-POST-LIST:END before START")
     _, tail = rest.split(END, 1)
     README.write_text(f"{head}{START}\n" + "\n".join(lines) + f"\n{END}{tail}")
     print(f"Wrote {len(lines)} posts to README.md")
