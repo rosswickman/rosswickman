@@ -8,6 +8,7 @@
 [![X](https://img.shields.io/badge/@rosswickman-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/rosswickman)
 [![Quiverstone](https://img.shields.io/badge/Quiverstone-FF9900?style=for-the-badge&logo=amazonwebservices&logoColor=232F3E)](https://www.quiverstone.io)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/rosswickman)
+[![GitLab](https://img.shields.io/badge/GitLab-FC6D26?style=for-the-badge&logo=gitlab&logoColor=white)](https://gitlab.com/rosswickman)
 
 </div>
 
