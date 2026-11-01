@@ -64,7 +64,11 @@ Governance shouldn't be a barrier to innovation — it should be the foundation 
 ### 📝 Latest writing
 
 <!-- BLOG-POST-LIST:START -->
-- Visit [rosswickman.com](https://rosswickman.com) for recent posts
+- [Small Launch](https://www.rosswickman.com/ventures/small-launch/) <sub>Oct 2026</sub>
+- [Tools](https://www.rosswickman.com/tools/) <sub>Oct 2026</sub>
+- [The Strangest Secret Revisited](https://www.rosswickman.com/videos/the-strangest-secret-revisited/) <sub>Oct 2026</sub>
+- [The Strangest Secret](https://www.rosswickman.com/videos/the-strangest-secret/) <sub>Oct 2026</sub>
+- [AWS CLI](https://www.rosswickman.com/videos/aws-cli/) <sub>Oct 2026</sub>
 <!-- BLOG-POST-LIST:END -->
 
 ### 📊 Activity
