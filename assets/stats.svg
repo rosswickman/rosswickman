@@ -14,5 +14,5 @@
   <g class="row" style="animation-delay:240ms"><text x="24" y="108" class="label">Pull requests</text><text x="396" y="108" class="value" text-anchor="end">31</text></g>
   <g class="row" style="animation-delay:360ms"><text x="24" y="130" class="label">Issues</text><text x="396" y="130" class="value" text-anchor="end">6</text></g>
   <g class="row" style="animation-delay:480ms"><text x="24" y="152" class="label">Public repos</text><text x="396" y="152" class="value" text-anchor="end">15</text></g>
-  <g class="row" style="animation-delay:600ms"><text x="24" y="174" class="label">Contributed to</text><text x="396" y="174" class="value" text-anchor="end">1</text></g>
+  <g class="row" style="animation-delay:600ms"><text x="24" y="174" class="label">Contributed to</text><text x="396" y="174" class="value" text-anchor="end">2</text></g>
 </svg>
