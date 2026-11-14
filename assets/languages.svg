@@ -11,13 +11,9 @@
   <text x="24" y="34" class="title">Top Languages</text>
   <clipPath id="bar"><rect x="24" y="52" width="372" height="8" rx="4"/></clipPath>
   <g clip-path="url(#bar)">
-    <rect x="24.00" y="52" width="196.94" height="8" fill="#3572A5"/>
-    <rect x="220.94" y="52" width="143.17" height="8" fill="#89e051"/>
-    <rect x="364.11" y="52" width="18.86" height="8" fill="#8b949e"/>
-    <rect x="382.97" y="52" width="13.03" height="8" fill="#844FBA"/>
+    <rect x="24.00" y="52" width="217.52" height="8" fill="#89e051"/>
+    <rect x="241.52" y="52" width="154.48" height="8" fill="#3572A5"/>
   </g>
-  <g class="row" style="animation-delay:0ms"><circle cx="29" cy="88" r="5" fill="#3572A5"/><text x="40" y="92" class="value">Python</text><text x="190" y="92" class="label" text-anchor="end">52.9%</text></g>
-  <g class="row" style="animation-delay:120ms"><circle cx="215" cy="88" r="5" fill="#89e051"/><text x="226" y="92" class="value">Shell</text><text x="376" y="92" class="label" text-anchor="end">38.5%</text></g>
-  <g class="row" style="animation-delay:240ms"><circle cx="29" cy="118" r="5" fill="#8b949e"/><text x="40" y="122" class="value">PowerShell</text><text x="190" y="122" class="label" text-anchor="end">5.1%</text></g>
-  <g class="row" style="animation-delay:360ms"><circle cx="215" cy="118" r="5" fill="#844FBA"/><text x="226" y="122" class="value">HCL</text><text x="376" y="122" class="label" text-anchor="end">3.5%</text></g>
+  <g class="row" style="animation-delay:0ms"><circle cx="29" cy="88" r="5" fill="#89e051"/><text x="40" y="92" class="value">Shell</text><text x="190" y="92" class="label" text-anchor="end">58.5%</text></g>
+  <g class="row" style="animation-delay:120ms"><circle cx="215" cy="88" r="5" fill="#3572A5"/><text x="226" y="92" class="value">Python</text><text x="376" y="92" class="label" text-anchor="end">41.5%</text></g>
 </svg>
